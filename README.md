@@ -1,11 +1,11 @@
 # ParseByer
-##Introduction
+## Introduction
 ParseByer is a Java library to parse everything (just supported json now) to Java Bean.
 
-##How to Use
+## How to Use
 > Just supported used By adding source code.
 
-###How to add into the project
+### How to add into the project
 1. add annotation library to project.
 2. add compiler library to project.
 3. add classpath android-apt to the dependencies of the buildscript of the project's build.gradle, like this
@@ -27,7 +27,7 @@ ParseByer is a Java library to parse everything (just supported json now) to Jav
     apt project(':compiler')
 	~~~ 
 	
-###How to use in project
+### How to use in project
 1. The bean you want to parse to needs annotation 'ParseByJson'
 2. ParseBy#parseBy(Class, String) uses to parse json string to Class which is bean's class
 3. ParseBy#parseBy(Class) uses to create Bean by test data
